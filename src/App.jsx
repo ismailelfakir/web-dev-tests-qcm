@@ -29,8 +29,11 @@ function App() {
         .then(data => {
           setQuestions(data.questions);
           setTitle(data.title);
+          document.title = `${data.title} | COFOEM Tests`;
         })
         .catch(error => console.error('Error loading questions:', error));
+    } else {
+      document.title = 'COFOEM Tests';
     }
   }, [selectedQcm]);
 
@@ -61,7 +64,7 @@ function App() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center mb-8 text-indigo-900">Choisissez un QCM</h1>
+          <h1 className="text-4xl font-bold text-center mb-8 text-indigo-900">COFOEM Tests</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {qcmList.map(qcm => (
               <button

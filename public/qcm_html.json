@@ -1,0 +1,335 @@
+{
+  "title": "QCM – HTML",
+  "questions": [
+    {
+      "part": "Partie 1 : Structure de base",
+      "question": "Quelle balise est utilisée pour commencer un document HTML ?",
+      "options": [
+        "<start>",
+        "<head>",
+        "<html>",
+        "<doc>"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Structure de base",
+      "question": "Où place-t-on le titre de la page affiché dans l’onglet du navigateur ?",
+      "options": [
+        "<title> dans <body>",
+        "<meta>",
+        "<header>",
+        "<title> dans <head>"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 1 : Structure de base",
+      "question": "Quelle balise contient le contenu visible de la page ?",
+      "options": [
+        "<main>",
+        "<content>",
+        "<body>",
+        "<html>"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Structure de base",
+      "question": "Quelle est la première ligne d’un fichier HTML valide ?",
+      "options": [
+        "<!DOCTYPE html>",
+        "<html version=\"5.0\">",
+        "<!HTML>",
+        "<?html>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 1 : Structure de base",
+      "question": "La balise <meta charset=\"UTF-8\"> permet :",
+      "options": [
+        "D’activer le CSS",
+        "De définir le type de document",
+        "De spécifier l’encodage des caractères",
+        "De lier des images"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Textes et titres",
+      "question": "Quelle balise est utilisée pour le plus grand titre ?",
+      "options": [
+        "<heading>",
+        "<title>",
+        "<h6>",
+        "<h1>"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 2 : Textes et titres",
+      "question": "Quelle balise permet d’écrire un paragraphe ?",
+      "options": [
+        "<p>",
+        "<text>",
+        "<br>",
+        "<div>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Textes et titres",
+      "question": "Quel est le rôle de la balise <br> ?",
+      "options": [
+        "C’est une ligne horizontale",
+        "C’est une balise de mise en forme",
+        "C’est un saut de ligne",
+        "C’est un paragraphe"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Textes et titres",
+      "question": "La balise <strong> signifie :",
+      "options": [
+        "Un texte barré",
+        "Une phrase importante avec emphase",
+        "Du texte en gras avec importance sémantique",
+        "Du texte souligné"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Textes et titres",
+      "question": "Quelle balise rend un texte en italique avec un sens sémantique ?",
+      "options": [
+        "<em>",
+        "<italic>",
+        "<i>",
+        "<mark>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Liens, images, listes",
+      "question": "Quelle balise crée un lien hypertexte ?",
+      "options": [
+        "<href>",
+        "<a>",
+        "<link>",
+        "<url>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Liens, images, listes",
+      "question": "Quel attribut de la balise <a> spécifie l’adresse de destination ?",
+      "options": [
+        "src",
+        "url",
+        "href",
+        "target"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Liens, images, listes",
+      "question": "Pour ouvrir un lien dans un nouvel onglet, on utilise :",
+      "options": [
+        "target=\"_blank\"",
+        "href=\"newtab\"",
+        "target=\"_self\"",
+        "window=\"_blank\""
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Liens, images, listes",
+      "question": "Quelle balise permet d’afficher une image ?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<src>",
+        "<pic>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Liens, images, listes",
+      "question": "Une liste non ordonnée utilise la balise :",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux et formulaires",
+      "question": "Quelle balise crée une cellule dans un tableau ?",
+      "options": [
+        "<th>",
+        "<td>",
+        "<cell>",
+        "<tr>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux et formulaires",
+      "question": "Quelle balise sert à créer une ligne dans un tableau ?",
+      "options": [
+        "<line>",
+        "<tr>",
+        "<row>",
+        "<td>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux et formulaires",
+      "question": "Quelle balise permet de créer un formulaire ?",
+      "options": [
+        "<form>",
+        "<input>",
+        "<label>",
+        "<fieldset>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Tableaux et formulaires",
+      "question": "L’attribut type=\"password\" sur une balise <input> :",
+      "options": [
+        "Cache le mot de passe",
+        "Envoie le mot de passe crypté",
+        "Active la vérification d'identité",
+        "Génère un mot de passe automatiquement"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Tableaux et formulaires",
+      "question": "Quelle balise regroupe les options d’un menu déroulant ?",
+      "options": [
+        "<menu>",
+        "<group>",
+        "<options>",
+        "<select>"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Quelle balise est utilisée pour une vidéo ?",
+      "options": [
+        "<media>",
+        "<movie>",
+        "<video>",
+        "<vid>"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Pour intégrer un son dans une page HTML, on utilise :",
+      "options": [
+        "<mp3>",
+        "<sound>",
+        "<audio>",
+        "<media>"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Que signifie HTML ?",
+      "options": [
+        "HyperTool Main Language",
+        "Home Text Markup Language",
+        "HyperText Markup Language",
+        "Hyper Technical Main Language"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "La balise <section> est :",
+      "options": [
+        "Obsolète",
+        "Utilisée pour les styles CSS",
+        "Utilisée pour structurer une partie logique d’une page",
+        "Remplace la balise <div>"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Quelle balise donne des informations sur l’auteur, copyright, etc. ?",
+      "options": [
+        "<info>",
+        "<footer>",
+        "<metadata>",
+        "<license>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Quelle est la différence entre <div> et <span> ?",
+      "options": [
+        "<div> est en ligne, <span> est en bloc",
+        "<div> est pour les formulaires, <span> pour les images",
+        "<div> est en bloc, <span> est en ligne",
+        "Il n’y a aucune différence"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Quelle balise permet de créer une ligne horizontale ?",
+      "options": [
+        "<line>",
+        "<hr>",
+        "<border>",
+        "<divider>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "La balise <label> sert à :",
+      "options": [
+        "Styliser les champs",
+        "Ajouter des icônes",
+        "Associer un texte à un champ de formulaire",
+        "Créer un champ obligatoire"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Quelle est la meilleure pratique pour inclure des caractères spéciaux comme © ?",
+      "options": [
+        "En les tapant normalement",
+        "En utilisant des balises <copyright>",
+        "En utilisant des entités HTML comme &copy;",
+        "En mettant un commentaire"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Média, sémantique, bonnes pratiques",
+      "question": "Une balise auto-fermante comme <img> :",
+      "options": [
+        "N’a pas besoin de contenu ni de balise de fermeture",
+        "Doit avoir une fermeture </img>",
+        "Ne peut pas avoir d’attribut",
+        "Ne fonctionne que dans <body>"
+      ],
+      "answer": "A"
+    }
+  ]
+}

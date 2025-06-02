@@ -1,0 +1,335 @@
+{
+  "title": "QCM – Serveur Web Apache",
+  "questions": [
+    {
+      "part": "Partie 1 : Bases générales",
+      "question": "Qu’est-ce qu’Apache ?",
+      "options": [
+        "Un système d’exploitation",
+        "Un langage de programmation",
+        "Un serveur HTTP open-source",
+        "Un navigateur"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Bases générales",
+      "question": "Sur quel port fonctionne Apache par défaut ?",
+      "options": [
+        "21",
+        "80",
+        "443",
+        "8080"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Bases générales",
+      "question": "Quel est l’éditeur principal du serveur Apache ?",
+      "options": [
+        "Apache Corp",
+        "The Linux Foundation",
+        "Apache Software Foundation",
+        "Red Hat"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Bases générales",
+      "question": "Que signifie HTTP dans “Apache HTTP Server” ?",
+      "options": [
+        "Hyper Tool Transfer Protocol",
+        "HyperText Transfer Protocol",
+        "High Transfer Text Platform",
+        "Hosting Transfer Type Protocol"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Bases générales",
+      "question": "Apache fonctionne principalement comme :",
+      "options": [
+        "Client",
+        "Serveur de base de données",
+        "Serveur Web",
+        "Proxy DNS"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Installation et configuration",
+      "question": "Quelle commande installe Apache sous Debian/Ubuntu ?",
+      "options": [
+        "sudo install apache",
+        "sudo apt install apache2",
+        "sudo apachectl install",
+        "sudo yum apache-install"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Installation et configuration",
+      "question": "Quel fichier contient les paramètres principaux du serveur Apache ?",
+      "options": [
+        "/etc/apache2/apache.conf",
+        "/var/www/index.html",
+        "/etc/httpd/http.conf",
+        "/usr/local/apache2.conf"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Installation et configuration",
+      "question": "Où place-t-on les fichiers HTML par défaut sur Ubuntu ?",
+      "options": [
+        "/home/www",
+        "/etc/apache2/htdocs",
+        "/var/www/html",
+        "/usr/share/www/"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Installation et configuration",
+      "question": "Quel est le nom du service Apache sur Ubuntu ?",
+      "options": [
+        "apache",
+        "httpd",
+        "apache2",
+        "apache_service"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Installation et configuration",
+      "question": "Que fait la commande systemctl restart apache2 ?",
+      "options": [
+        "Éteint Apache",
+        "Redémarre Apache",
+        "Installe Apache",
+        "Crée un fichier de configuration"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Modules et directives",
+      "question": "Quelle directive définit le répertoire racine d’un site web ?",
+      "options": [
+        "DocumentRoot",
+        "WebRoot",
+        "Directory",
+        "RootFolder"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Modules et directives",
+      "question": "Quelle directive contrôle les permissions d’accès à un répertoire ?",
+      "options": [
+        "AllowAccess",
+        "DirectoryPermission",
+        "<Directory> ... </Directory>",
+        "PathAccess"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Modules et directives",
+      "question": "Que fait le module mod_rewrite ?",
+      "options": [
+        "Compresse les fichiers",
+        "Gère les fichiers d’erreur",
+        "Permet la réécriture d’URL",
+        "Protège contre les attaques DDoS"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Modules et directives",
+      "question": "Que signifie .htaccess ?",
+      "options": [
+        "Un fichier principal d'Apache",
+        "Un fichier local de configuration",
+        "Une extension SSL",
+        "Un fichier pour les logs"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Modules et directives",
+      "question": "Que fait a2enmod sous Ubuntu ?",
+      "options": [
+        "Lance Apache",
+        "Ajoute un site web",
+        "Active un module Apache",
+        "Vérifie la configuration"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Sécurité",
+      "question": "Que fait la directive Require all denied ?",
+      "options": [
+        "Accorde l’accès à tout le monde",
+        "Refuse l’accès à tous",
+        "Crée un mot de passe",
+        "Active un proxy"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Sécurité",
+      "question": "Quel fichier permet d’activer le HTTPS ?",
+      "options": [
+        ".ssl.conf",
+        "ssl.conf",
+        "httpd.conf",
+        "certs.conf"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Sécurité",
+      "question": "Que fait mod_ssl ?",
+      "options": [
+        "Gère les fichiers CSS",
+        "Active le chiffrement HTTPS",
+        "Provoque des redirections",
+        "Affiche les logs"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Sécurité",
+      "question": "Où place-t-on les certificats SSL ?",
+      "options": [
+        "/var/www/html",
+        "/etc/apache2/sites-enabled/",
+        "/etc/ssl/certs/",
+        "/usr/share/apache/keys/"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Sécurité",
+      "question": "Quelle commande permet de tester la syntaxe de configuration Apache ?",
+      "options": [
+        "apachectl test",
+        "httpd test",
+        "apache2ctl configtest",
+        "check-apache"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Sites, logs et virtual hosts",
+      "question": "Quel fichier configure un “virtual host” sur Ubuntu ?",
+      "options": [
+        "/etc/apache2/sites-available/",
+        "/var/www/",
+        "/etc/apache2/virtual.conf",
+        "/home/apache/vhosts.conf"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 5 : Sites, logs et virtual hosts",
+      "question": "Quelle directive identifie le nom du domaine dans un vhost ?",
+      "options": [
+        "ServerIP",
+        "DomainName",
+        "ServerName",
+        "HostName"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Sites, logs et virtual hosts",
+      "question": "Où sont stockés les logs Apache par défaut ?",
+      "options": [
+        "/var/www/logs/",
+        "/etc/apache2/logs/",
+        "/var/log/apache2/",
+        "/usr/logs/apache/"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Sites, logs et virtual hosts",
+      "question": "Que fait a2ensite monsite.conf ?",
+      "options": [
+        "Crée un nouveau site",
+        "Active un site configuré dans sites-available",
+        "Redémarre Apache",
+        "Sauvegarde un site web"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Sites, logs et virtual hosts",
+      "question": "Quelle directive spécifie l’adresse IP d’un virtual host ?",
+      "options": [
+        "IPHost",
+        "BindAddress",
+        "VirtualAddress",
+        "<VirtualHost *:80>"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 6 : Divers",
+      "question": "Quelle est la commande pour voir l’état d’Apache ?",
+      "options": [
+        "apache status",
+        "service apache2 status",
+        "apachectl monitor",
+        "apache-check"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Divers",
+      "question": "Comment lister les modules Apache activés ?",
+      "options": [
+        "apache2 modules list",
+        "a2listmod",
+        "apache2ctl -M",
+        "mod-list"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : Divers",
+      "question": "Que signifie 403 Forbidden ?",
+      "options": [
+        "Serveur indisponible",
+        "Accès interdit",
+        "Page introuvable",
+        "Redirection"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Divers",
+      "question": "Quelle commande désactive un module ?",
+      "options": [
+        "a2disable",
+        "a2dismod",
+        "a2modoff",
+        "disablemod"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Divers",
+      "question": "Que fait systemctl reload apache2 ?",
+      "options": [
+        "Redémarre tout le serveur",
+        "Recharge la config sans couper le service",
+        "Vide les logs",
+        "Installe Apache"
+      ],
+      "answer": "B"
+    }
+  ]
+}

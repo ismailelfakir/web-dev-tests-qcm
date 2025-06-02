@@ -1,0 +1,333 @@
+{
+  "title": "QCM – JavaScript",
+  "questions": [
+    {
+      "part": "Partie 1 : Bases et types",
+      "question": "Que signifie JavaScript ?",
+      "options": [
+        "Langage compilé pour Java",
+        "Langage de programmation serveur",
+        "Langage de script côté client",
+        "Langage de style"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Bases et types",
+      "question": "Quelle extension a un fichier JavaScript ?",
+      "options": [
+        ".java",
+        ".js",
+        ".script",
+        ".json"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Bases et types",
+      "question": "Quel mot-clé déclare une variable modifiable ?",
+      "options": [
+        "let",
+        "var",
+        "const",
+        "Les deux A et B"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 1 : Bases et types",
+      "question": "Quel type de données est false ?",
+      "options": [
+        "Number",
+        "String",
+        "Boolean",
+        "Null"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Bases et types",
+      "question": "Que retourne typeof \"Hello\" ?",
+      "options": [
+        "string",
+        "text",
+        "object",
+        "character"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Opérateurs et conditions",
+      "question": "Que vaut 3 + \"2\" en JavaScript ?",
+      "options": [
+        "5",
+        "32",
+        "NaN",
+        "Erreur"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Opérateurs et conditions",
+      "question": "Que retourne null == undefined ?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "Erreur"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Opérateurs et conditions",
+      "question": "Quel opérateur compare la valeur et le type ?",
+      "options": [
+        "==",
+        "=",
+        "===",
+        "!==="
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Opérateurs et conditions",
+      "question": "La condition if (0) est-elle vraie ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Opérateurs et conditions",
+      "question": "Quel est le mot-clé pour exécuter un bloc plusieurs fois tant qu’une condition est vraie ?",
+      "options": [
+        "forEach",
+        "if",
+        "repeat",
+        "while"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 3 : Fonctions et portée",
+      "question": "Comment déclare-t-on une fonction classique ?",
+      "options": [
+        "function maFonction() {}",
+        "let function = () => {}",
+        "declare function maFonction {}",
+        "createFunction()"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Fonctions et portée",
+      "question": "Que fait return dans une fonction ?",
+      "options": [
+        "Relance la fonction",
+        "Affiche un message",
+        "Met fin à la fonction et retourne une valeur",
+        "Supprime la fonction"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Fonctions et portée",
+      "question": "Quelle portée a une variable déclarée avec let dans un bloc ?",
+      "options": [
+        "Globale",
+        "Locale à la fonction",
+        "Limitée au bloc",
+        "Toujours disponible"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Fonctions et portée",
+      "question": "Que signifie une fonction fléchée ?",
+      "options": [
+        "let x = -> () {}",
+        "function => () {}",
+        "const x = () => {}",
+        "arrow x() => {}"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Fonctions et portée",
+      "question": "Quelle est la différence entre let et const ?",
+      "options": [
+        "const est modifiable",
+        "let ne peut pas être utilisé dans des boucles",
+        "const ne peut pas être réassigné",
+        "Aucune"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Tableaux, objets, boucles",
+      "question": "Comment créer un tableau vide ?",
+      "options": [
+        "let tab = ()",
+        "let tab = []",
+        "let tab = {}",
+        "let tab = new Object()"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux, objets, boucles",
+      "question": "Quel méthode ajoute un élément à la fin d’un tableau ?",
+      "options": [
+        "push()",
+        "add()",
+        "append()",
+        "insert()"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Tableaux, objets, boucles",
+      "question": "Comment accéder à la propriété nom d’un objet personne ?",
+      "options": [
+        "personne[nom]",
+        "personne.nom",
+        "nom.personne",
+        "personne->nom"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux, objets, boucles",
+      "question": "Quelle boucle parcourt un tableau élément par élément ?",
+      "options": [
+        "for in",
+        "forEach",
+        "while",
+        "loop"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux, objets, boucles",
+      "question": "Que fait array.length ?",
+      "options": [
+        "Renvoie la somme des valeurs",
+        "Trie le tableau",
+        "Renvoie la taille du tableau",
+        "Vide le tableau"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : DOM et événements",
+      "question": "Que signifie DOM ?",
+      "options": [
+        "Data Object Model",
+        "Document Object Model",
+        "Display Ordered Map",
+        "Document Online Mode"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : DOM et événements",
+      "question": "Que retourne document.getElementById(\"id\") ?",
+      "options": [
+        "Un tableau d’éléments",
+        "Une collection HTML",
+        "Un seul élément",
+        "Une chaîne de texte"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : DOM et événements",
+      "question": "Que fait innerHTML ?",
+      "options": [
+        "Modifie le style",
+        "Supprime un élément",
+        "Change le contenu HTML d’un élément",
+        "Redirige la page"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : DOM et événements",
+      "question": "Comment ajouter un événement clic sur un bouton ?",
+      "options": [
+        "onclick(button)",
+        "button.add(\"click\", fn)",
+        "button.addEventListener(\"click\", fn)",
+        "button.on(\"click\", fn)"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : DOM et événements",
+      "question": "Que fait preventDefault() ?",
+      "options": [
+        "Recharge la page",
+        "Empêche le comportement par défaut d’un événement",
+        "Crée un événement",
+        "Redémarre un timer"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : ES6+, erreurs, bonnes pratiques",
+      "question": "Quelle méthode permet de copier tous les éléments d’un tableau ?",
+      "options": [
+        "array.clone()",
+        "array.map()",
+        "[...array]",
+        "array.toString()"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : ES6+, erreurs, bonnes pratiques",
+      "question": "Quelle méthode déclenche une erreur volontairement ?",
+      "options": [
+        "error.throw()",
+        "throw new Error(\"message\")",
+        "raise(\"message\")",
+        "new Error.throw()"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : ES6+, erreurs, bonnes pratiques",
+      "question": "Comment écrire un template string (avec variables) ?",
+      "options": [
+        "\"Bonjour \" + nom",
+        "'Bonjour ' + nom",
+        "Bonjour {nom}",
+        "`Bonjour ${nom}`"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 6 : ES6+, erreurs, bonnes pratiques",
+      "question": "Quelle méthode permet d’attendre un résultat asynchrone ?",
+      "options": [
+        "wait()",
+        "async.wait",
+        "await",
+        "delay()"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : ES6+, erreurs, bonnes pratiques",
+      "question": "Quelle instruction permet de gérer les erreurs ?",
+      "options": [
+        "try/catch",
+        "check/except",
+        "if/error",
+        "test/fail"
+      ],
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "title": "QCM – PHP",
+  "questions": [
+    {
+      "part": "Partie 1 : Bases",
+      "question": "Que signifie PHP ?",
+      "options": [
+        "Private Hypertext Processor",
+        "PHP Hypertext Preprocessor",
+        "Personal Home Page",
+        "Portable Hypertext Protocol"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Bases",
+      "question": "Quelle extension ont les fichiers PHP ?",
+      "options": [
+        ".ph",
+        ".php3",
+        ".php",
+        ".html"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Bases",
+      "question": "Quelle est la syntaxe correcte pour ouvrir un bloc PHP ?",
+      "options": [
+        "<php>",
+        "<?php ... ?>",
+        "<? ... ?>",
+        "<script php>"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Bases",
+      "question": "Comment affiche-t-on \"Bonjour\" en PHP ?",
+      "options": [
+        "console.log(\"Bonjour\");",
+        "print(\"Bonjour\");",
+        "echo \"Bonjour\";",
+        "display(\"Bonjour\");"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Bases",
+      "question": "Que produit l’instruction echo 3 + \"5 chats\"; ?",
+      "options": [
+        "Erreur",
+        "8",
+        "35",
+        "3"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Variables, types, opérateurs",
+      "question": "Comment déclare-t-on une variable en PHP ?",
+      "options": [
+        "var $x = 10;",
+        "$x = 10;",
+        "int x = 10;",
+        "declare x = 10;"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Variables, types, opérateurs",
+      "question": "Quel type de variable est $x = null; ?",
+      "options": [
+        "Chaîne",
+        "Booléen",
+        "Null",
+        "Entier"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Variables, types, opérateurs",
+      "question": "Quelle fonction permet de connaître le type d’une variable ?",
+      "options": [
+        "type()",
+        "get_type()",
+        "gettype()",
+        "typeof()"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Variables, types, opérateurs",
+      "question": "Que signifie === en PHP ?",
+      "options": [
+        "Comparaison de valeur uniquement",
+        "Affectation",
+        "Comparaison stricte (valeur et type)",
+        "Toujours vrai"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Variables, types, opérateurs",
+      "question": "Que retourne is_numeric(\"42\") ?",
+      "options": [
+        "false",
+        "true",
+        "Erreur",
+        "42"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Conditions, boucles, fonctions",
+      "question": "Quelle structure est utilisée pour les conditions ?",
+      "options": [
+        "when/then",
+        "if/else",
+        "case/test",
+        "loop/until"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Conditions, boucles, fonctions",
+      "question": "Que fait continue dans une boucle ?",
+      "options": [
+        "Termine la boucle",
+        "Ignore l’itération en cours",
+        "Recommence la boucle",
+        "Sort de la fonction"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Conditions, boucles, fonctions",
+      "question": "Comment définir une fonction en PHP ?",
+      "options": [
+        "def nom() {}",
+        "func nom() {}",
+        "function nom() {}",
+        "fn nom() {}"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Conditions, boucles, fonctions",
+      "question": "Que signifie return dans une fonction ?",
+      "options": [
+        "Réaffiche la fonction",
+        "Interrompt PHP",
+        "Retourne une valeur et sort de la fonction",
+        "Redémarre la page"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Conditions, boucles, fonctions",
+      "question": "Peut-on passer un tableau en paramètre de fonction ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Tableaux et chaînes",
+      "question": "Comment créer un tableau associatif ?",
+      "options": [
+        "array[\"nom\" => \"Ali\"]",
+        "[\"nom\", \"Ali\"]",
+        "array(\"nom\" => \"Ali\")",
+        "{nom: \"Ali\"}"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Tableaux et chaînes",
+      "question": "Quelle fonction compte les éléments d’un tableau ?",
+      "options": [
+        "count()",
+        "size()",
+        "length()",
+        "elements()"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Tableaux et chaînes",
+      "question": "Que fait explode(\",\", $str) ?",
+      "options": [
+        "Supprime les virgules",
+        "Divise la chaîne par les virgules",
+        "Ajoute une virgule",
+        "Compte les caractères"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Tableaux et chaînes",
+      "question": "Que fait implode(\" \", $array) ?",
+      "options": [
+        "Supprime tous les espaces",
+        "Crée un tableau",
+        "Transforme un tableau en chaîne",
+        "Trier un tableau"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Tableaux et chaînes",
+      "question": "Comment vérifier si une clé existe dans un tableau ?",
+      "options": [
+        "key_exists()",
+        "isset()",
+        "array_key_exists()",
+        "check_key()"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Formulaires, superglobales, fichiers",
+      "question": "Quelle superglobale contient les données d’un formulaire en POST ?",
+      "options": [
+        "$_FORM",
+        "$_POST",
+        "$_INPUT",
+        "$_REQUEST"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Formulaires, superglobales, fichiers",
+      "question": "Quel attribut HTML doit avoir un formulaire pour envoyer des fichiers ?",
+      "options": [
+        "action=\"file\"",
+        "method=\"get\"",
+        "enctype=\"multipart/form-data\"",
+        "type=\"file\""
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Formulaires, superglobales, fichiers",
+      "question": "Que fait isset($_POST[\"email\"])?",
+      "options": [
+        "Vérifie que la variable contient une chaîne",
+        "Vérifie que le champ a été envoyé",
+        "Initialise la variable",
+        "Compare deux champs"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Formulaires, superglobales, fichiers",
+      "question": "Quelle fonction permet de charger un fichier externe PHP ?",
+      "options": [
+        "load(\"fichier.php\")",
+        "include(\"fichier.php\")",
+        "require_once()",
+        "Les deux B et C"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 5 : Formulaires, superglobales, fichiers",
+      "question": "Quelle superglobale contient les informations sur les fichiers uploadés ?",
+      "options": [
+        "$_UPLOADS",
+        "$_FILES",
+        "$_POSTFILE",
+        "$_FILESINFO"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : MySQL, sécurité, bonnes pratiques",
+      "question": "Quelle extension PHP est moderne pour accéder à MySQL ?",
+      "options": [
+        "mysql_",
+        "mysqli_",
+        "PDO",
+        "mysqladmin"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : MySQL, sécurité, bonnes pratiques",
+      "question": "Quelle fonction prépare une requête en PDO ?",
+      "options": [
+        "prepareQuery()",
+        "$pdo->prepare()",
+        "pdo_query()",
+        "query_prepare()"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : MySQL, sécurité, bonnes pratiques",
+      "question": "Que signifie XSS ?",
+      "options": [
+        "Cross Server Scripting",
+        "Cross-Site Scripting",
+        "Xtreme Server Script",
+        "XAML Security Script"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : MySQL, sécurité, bonnes pratiques",
+      "question": "Que faire pour éviter les injections SQL ?",
+      "options": [
+        "Mettre des echo",
+        "Utiliser eval()",
+        "Utiliser les requêtes préparées",
+        "Désactiver MySQL"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : MySQL, sécurité, bonnes pratiques",
+      "question": "Quel est le rôle de htmlspecialchars() ?",
+      "options": [
+        "Traduire une page",
+        "Protéger contre les injections JS",
+        "Compresser le code",
+        "Afficher des balises HTML"
+      ],
+      "answer": "B"
+    }
+  ]
+}

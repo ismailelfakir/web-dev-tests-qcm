@@ -1,0 +1,335 @@
+{
+  "title": "QCM – Bootstrap",
+  "questions": [
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Qu’est-ce que Bootstrap ?",
+      "options": [
+        "Un moteur de base de données",
+        "Un framework CSS/JS pour créer des interfaces web",
+        "Une bibliothèque de composants React",
+        "Un compilateur SCSS"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Quelle classe Bootstrap rend un site responsive ?",
+      "options": [
+        "responsive-true",
+        "mobile-first",
+        "container-fluid",
+        "container-responsive"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Quelle balise HTML est utilisée pour inclure Bootstrap via CDN ?",
+      "options": [
+        "<script src=\"bootstrap.js\">",
+        "<link href=\"bootstrap.css\">",
+        "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/...\">",
+        "<cdn>"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Comment activer les composants dynamiques comme les carrousels ou les modales ?",
+      "options": [
+        "En important uniquement le CSS",
+        "En utilisant des fichiers .json",
+        "En important le JS Bootstrap (ou Bootstrap Bundle)",
+        "Avec Node.js uniquement"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Quelle classe permet de créer une marge extérieure à gauche ?",
+      "options": [
+        "ml-3",
+        "margin-left-3",
+        "ms-3",
+        "pl-3"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Grille (Grid System)",
+      "question": "Combien de colonnes possède la grille Bootstrap par défaut ?",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "16"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Grille (Grid System)",
+      "question": "Quelle classe est utilisée pour définir une colonne qui prend 6/12 ?",
+      "options": [
+        "grid-6",
+        "col-md-6",
+        "col-50%",
+        "col-lg-3-3"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Grille (Grid System)",
+      "question": "Quelle classe rend une colonne responsive sur mobile seulement ?",
+      "options": [
+        "col-xs-12",
+        "col-sm-12",
+        "col-md-12",
+        "col-12"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 2 : Grille (Grid System)",
+      "question": "Que fait la classe row ?",
+      "options": [
+        "Définit une rangée de colonnes",
+        "Ajoute un espacement vertical",
+        "Crée une ligne HTML",
+        "Affiche une table"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Grille (Grid System)",
+      "question": "Quelle classe aligne les colonnes verticalement au centre ?",
+      "options": [
+        "align-center",
+        "align-items-middle",
+        "align-items-center",
+        "justify-content-center"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Composants",
+      "question": "Quel composant Bootstrap permet de créer une barre de navigation ?",
+      "options": [
+        "navbar",
+        "menu",
+        "toolbar",
+        "headerbar"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Composants",
+      "question": "Quelle classe rend la barre de navigation sombre ?",
+      "options": [
+        "navbar-light",
+        "navbar-default",
+        "navbar-dark bg-dark",
+        "navbar-black"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Composants",
+      "question": "Quel composant affiche du contenu dans une boîte avec ombre et bord arrondi ?",
+      "options": [
+        "box",
+        "container",
+        "card",
+        "frame"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Composants",
+      "question": "Comment ajouter un bouton Bootstrap primaire ?",
+      "options": [
+        "<button class=\"btn btn-primary\">",
+        "<button class=\"primary\">",
+        "<button class=\"button-blue\">",
+        "<btn type=\"primary\">"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 3 : Composants",
+      "question": "Quelle classe permet d’ajouter un badge à un élément ?",
+      "options": [
+        "add-badge",
+        "badge-label",
+        "badge",
+        "btn-badge"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Utilitaires",
+      "question": "Que fait text-center ?",
+      "options": [
+        "Centre l’élément",
+        "Centre le texte à l’intérieur de l’élément",
+        "Ajoute une bordure",
+        "Ajoute un espace entre éléments"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Utilitaires",
+      "question": "Quelle classe rend un élément invisible uniquement sur mobile ?",
+      "options": [
+        "d-md-none",
+        "d-none",
+        "invisible-sm",
+        "d-hide-sm"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Utilitaires",
+      "question": "Que fait w-100 ?",
+      "options": [
+        "Définit la largeur à 100 pixels",
+        "Définit la largeur à 100%",
+        "Réinitialise la largeur",
+        "Étire horizontalement sans limite"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Utilitaires",
+      "question": "Quelle classe arrondit les coins d’un élément ?",
+      "options": [
+        "rounded",
+        "circle",
+        "border-soft",
+        "round"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 4 : Utilitaires",
+      "question": "Quelle classe ajoute une ombre portée à un élément ?",
+      "options": [
+        "box-shadow",
+        "shadow",
+        "elevation",
+        "drop-shadow"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Réactivité et breakpoints",
+      "question": "Quel est le plus petit breakpoint de Bootstrap 5 ?",
+      "options": [
+        "xs",
+        "sm",
+        "mobile",
+        "Bootstrap 5 ne définit pas xs"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 5 : Réactivité et breakpoints",
+      "question": "Que signifie col-md-4 ?",
+      "options": [
+        "Colonne visible uniquement sur desktop",
+        "Colonne de 4 colonnes sur écran moyen et plus",
+        "Colonne de 4px",
+        "Une marge automatique"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Réactivité et breakpoints",
+      "question": "Quelle classe affiche un élément en bloc uniquement sur grand écran ?",
+      "options": [
+        "d-lg-block",
+        "visible-lg",
+        "block-lg",
+        "show-lg"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 5 : Réactivité et breakpoints",
+      "question": "Quel est l’ordre des breakpoints de Bootstrap (du plus petit au plus grand) ?",
+      "options": [
+        "sm, xs, md, lg, xl",
+        "xs, sm, md, lg, xl, xxl",
+        "sm, md, lg, xl",
+        "xs, sm, md, xl"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Réactivité et breakpoints",
+      "question": "Quelle classe masque un élément sur tous les écrans ?",
+      "options": [
+        "d-md-none",
+        "d-hidden",
+        "d-none",
+        "invisible"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques et avancé",
+      "question": "Quelle est la classe pour centrer un bouton dans une colonne ?",
+      "options": [
+        "text-align: center;",
+        "justify-content: center",
+        "d-flex justify-content-center",
+        "center"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques et avancé",
+      "question": "Quel composant affiche un message temporaire en overlay ?",
+      "options": [
+        "popup",
+        "toast",
+        "modal",
+        "tooltip"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques et avancé",
+      "question": "Quelle classe permet de définir une largeur automatique en responsive ?",
+      "options": [
+        "col-auto",
+        "col-fit",
+        "col-fluid",
+        "col-size"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques et avancé",
+      "question": "Que fait mx-auto ?",
+      "options": [
+        "Ajoute une marge horizontale automatique",
+        "Centrer verticalement",
+        "Ajoute une marge à gauche",
+        "Rien"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques et avancé",
+      "question": "Quelle classe rend une image responsive ?",
+      "options": [
+        "img-adapt",
+        "img-fluid",
+        "responsive-img",
+        "fluid-img"
+      ],
+      "answer": "B"
+    }
+  ]
+}

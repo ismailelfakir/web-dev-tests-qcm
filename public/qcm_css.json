@@ -1,0 +1,335 @@
+{
+  "title": "QCM – CSS",
+  "questions": [
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Que signifie CSS ?",
+      "options": [
+        "Computer Styled Sections",
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style System"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Comment lier une feuille CSS externe à une page HTML ?",
+      "options": [
+        "<css href=\"style.css\">",
+        "<style src=\"style.css\">",
+        "<link rel=\"stylesheet\" href=\"style.css\">",
+        "<style link=\"style.css\">"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Où place-t-on généralement le lien vers une feuille CSS externe ?",
+      "options": [
+        "En bas du <body>",
+        "En dehors de la balise <html>",
+        "Dans la balise <head>",
+        "N’importe où dans le document"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Quelle est la syntaxe correcte d’une règle CSS ?",
+      "options": [
+        "sélecteur = propriété: valeur;",
+        "propriété: valeur;",
+        "sélecteur { propriété: valeur; }",
+        "{sélecteur: propriété=valeur;}"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Fondamentaux",
+      "question": "Comment appliquer une couleur de fond rouge à tous les paragraphes ?",
+      "options": [
+        "p {background-color: red;}",
+        "p {color: red;}",
+        "p: red {background;}",
+        "paragraph {bg:red;}"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Sélecteurs",
+      "question": "Le sélecteur .titre sélectionne :",
+      "options": [
+        "Les éléments avec l’ID titre",
+        "Les balises <titre>",
+        "Les éléments de classe titre",
+        "Aucun élément"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Sélecteurs",
+      "question": "Le sélecteur #menu sélectionne :",
+      "options": [
+        "Une classe",
+        "Un ID",
+        "Une balise",
+        "Une variable CSS"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Sélecteurs",
+      "question": "Que sélectionne le sélecteur p strong ?",
+      "options": [
+        "Les balises <strong> à l’intérieur de tous les paragraphes",
+        "Tous les <p>",
+        "Tous les <strong>",
+        "Les paragraphes qui suivent une balise <strong>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 2 : Sélecteurs",
+      "question": "Quelle est la priorité des sélecteurs suivants (du plus fort au plus faible) ?",
+      "options": [
+        "ID > Élément > Classe",
+        "Élément > Classe > ID",
+        "Classe > Élément > ID",
+        "ID > Classe > Élément"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 2 : Sélecteurs",
+      "question": "Que fait * { margin: 0; padding: 0; } ?",
+      "options": [
+        "Supprime les styles CSS",
+        "Applique une marge et un padding par défaut",
+        "Supprime les marges et paddings de tous les éléments",
+        "Sélectionne uniquement les images"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Couleurs, texte, boîte",
+      "question": "Quel code donne la couleur noire ?",
+      "options": [
+        "#ffffff",
+        "#000000",
+        "rgb(255,255,255)",
+        "black0"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Couleurs, texte, boîte",
+      "question": "Quel propriété définit la taille du texte ?",
+      "options": [
+        "text-size",
+        "font-size",
+        "size-font",
+        "fontweight"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Couleurs, texte, boîte",
+      "question": "Quelle propriété centre le texte dans une boîte ?",
+      "options": [
+        "align: center",
+        "text-align: middle",
+        "center: true",
+        "text-align: center"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 3 : Couleurs, texte, boîte",
+      "question": "Quelle propriété ajoute de l’espace intérieur à une boîte ?",
+      "options": [
+        "margin",
+        "gap",
+        "padding",
+        "border"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Couleurs, texte, boîte",
+      "question": "Quelle propriété définit la bordure d’un élément ?",
+      "options": [
+        "outline",
+        "border-style",
+        "border",
+        "stroke"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Mise en page",
+      "question": "Quelle valeur de display place les éléments côte à côte horizontalement ?",
+      "options": [
+        "block",
+        "inline",
+        "inline-block",
+        "none"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Mise en page",
+      "question": "Quelle propriété active Flexbox sur un conteneur ?",
+      "options": [
+        "display: grid;",
+        "flex: true;",
+        "display: flex;",
+        "flex-direction: column;"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Mise en page",
+      "question": "Que fait justify-content: space-between; ?",
+      "options": [
+        "Centre les éléments verticalement",
+        "Écarte les éléments également",
+        "Aligne tout à droite",
+        "Répartit avec espace entre les éléments"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 4 : Mise en page",
+      "question": "Quelle propriété CSS active Grid Layout ?",
+      "options": [
+        "layout: grid;",
+        "display: grid;",
+        "grid: on;",
+        "structure: grid;"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Mise en page",
+      "question": "Quel code CSS crée une grille de 3 colonnes égales ?",
+      "options": [
+        "grid-template-columns: 3;",
+        "columns: repeat(3);",
+        "grid: 3-cols;",
+        "grid-template-columns: repeat(3, 1fr);"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "Partie 5 : Formes, effets, animation",
+      "question": "Quelle propriété arrondit les coins d’un élément ?",
+      "options": [
+        "radius",
+        "border-radius",
+        "corner",
+        "curve"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Formes, effets, animation",
+      "question": "Que fait opacity: 0.5; ?",
+      "options": [
+        "Rend l’élément invisible",
+        "Rend l’élément transparent à 50%",
+        "Agrandit l’élément",
+        "Le fait apparaître progressivement"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Formes, effets, animation",
+      "question": "Quelle propriété applique une ombre portée ?",
+      "options": [
+        "shadow",
+        "box-shadow",
+        "drop-shadow",
+        "outline-shadow"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Formes, effets, animation",
+      "question": "Quelle propriété permet de créer une animation ?",
+      "options": [
+        "motion",
+        "transition",
+        "animate",
+        "keyframes"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Formes, effets, animation",
+      "question": "Pour une animation complexe, on utilise :",
+      "options": [
+        "animation: speed;",
+        "@keyframes",
+        "transition-style",
+        "@motion"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques",
+      "question": "Que permet un reset CSS ?",
+      "options": [
+        "Appliquer un thème sombre",
+        "Réinitialiser les valeurs par défaut des navigateurs",
+        "Supprimer le HTML",
+        "Ajouter des animations"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques",
+      "question": "Quel est l’intérêt des variables CSS ?",
+      "options": [
+        "Gérer les versions",
+        "Écrire du JavaScript",
+        "Réutiliser des valeurs",
+        "Remplacer les classes"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques",
+      "question": "Quel préfixe permet de déclarer une variable CSS ?",
+      "options": [
+        "$color",
+        "@color",
+        "--color",
+        "%%color"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques",
+      "question": "Où place-t-on les variables CSS globales ?",
+      "options": [
+        "Dans .container",
+        "Dans :root",
+        "Dans @global",
+        "Dans body"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Bonnes pratiques",
+      "question": "Quelle est la meilleure méthode pour écrire du CSS réutilisable ?",
+      "options": [
+        "Utiliser des ID partout",
+        "Utiliser des classes et des variables",
+        "Tout écrire en ligne dans le HTML",
+        "Eviter le CSS, tout faire en JS"
+      ],
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "title": "QCM – DNS",
+  "questions": [
+    {
+      "part": "Partie 1 : Généralités",
+      "question": "Que signifie DNS ?",
+      "options": [
+        "Digital Network System",
+        "Domain Name Server",
+        "Domain Name System",
+        "Data Naming Syntax"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Généralités",
+      "question": "Quel est le rôle principal du DNS ?",
+      "options": [
+        "Protéger le réseau",
+        "Traduire les adresses IP en noms de domaine",
+        "Traduire les noms de domaine en adresses IP",
+        "Établir des connexions SSL"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Généralités",
+      "question": "Qu'est-ce qu'une résolution inverse ?",
+      "options": [
+        "Nom ➜ IP",
+        "IP ➜ Nom",
+        "Nom ➜ Alias",
+        "Nom ➜ Port"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 1 : Généralités",
+      "question": "Que remplaçait le système DNS à ses débuts ?",
+      "options": [
+        "Le cache du navigateur",
+        "Le fichier index.html",
+        "Le fichier hosts",
+        "Les serveurs FTP"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 1 : Généralités",
+      "question": "Où se trouve le fichier hosts sous Linux ?",
+      "options": [
+        "/root/hosts",
+        "/etc/hosts",
+        "/var/hosts",
+        "/opt/hosts"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 2 : Fonctionnement",
+      "question": "Le système DNS est :",
+      "options": [
+        "Centralisé",
+        "Statique",
+        "Décentralisé et hiérarchique",
+        "Non hiérarchique"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Fonctionnement",
+      "question": "Qu'est-ce qu’une “zone DNS” ?",
+      "options": [
+        "Une page web protégée",
+        "Une partie d’un fichier HTML",
+        "Une portion du domaine administrée séparément",
+        "Une configuration réseau locale"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Fonctionnement",
+      "question": "À quoi sert un fichier de zone ?",
+      "options": [
+        "À stocker les logs DNS",
+        "À indiquer les styles CSS",
+        "À définir les enregistrements DNS d’une zone",
+        "À faire le lien entre HTML et PHP"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Fonctionnement",
+      "question": "Quel type de serveur DNS contient le fichier de zone maître ?",
+      "options": [
+        "Serveur secondaire",
+        "Serveur miroir",
+        "Serveur primaire",
+        "Serveur cache"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 2 : Fonctionnement",
+      "question": "Que permet la délégation DNS ?",
+      "options": [
+        "Limiter l’accès aux noms",
+        "Attribuer la gestion d’une sous-zone à un autre serveur",
+        "Chiffrer les noms DNS",
+        "Sauvegarder les réponses DNS"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Enregistrements DNS",
+      "question": "Quel type d’enregistrement associe un nom à une adresse IPv4 ?",
+      "options": [
+        "NS",
+        "CNAME",
+        "A",
+        "MX"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Enregistrements DNS",
+      "question": "Quel type d’enregistrement définit un alias ?",
+      "options": [
+        "A",
+        "SOA",
+        "CNAME",
+        "TXT"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Enregistrements DNS",
+      "question": "L’enregistrement MX sert à :",
+      "options": [
+        "Rediriger une URL",
+        "Définir un serveur DNS secondaire",
+        "Définir un serveur de messagerie",
+        "Associer un nom à une IP"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 3 : Enregistrements DNS",
+      "question": "Quel enregistrement est obligatoire dans un fichier de zone ?",
+      "options": [
+        "CNAME",
+        "SOA",
+        "TXT",
+        "MX"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 3 : Enregistrements DNS",
+      "question": "Que contient un enregistrement NS ?",
+      "options": [
+        "L’adresse IP d’un client",
+        "Le nom du serveur web",
+        "Le nom d’un serveur de noms",
+        "Le nom du fichier de zone"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Caches et performance",
+      "question": "Pourquoi le cache DNS est-il utile ?",
+      "options": [
+        "Il protège contre les virus",
+        "Il réduit la charge réseau et accélère les réponses",
+        "Il crypte les requêtes DNS",
+        "Il désactive les résolutions inverses"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Caches et performance",
+      "question": "Comment vider le cache DNS sous Windows ?",
+      "options": [
+        "ipconfig /clearcache",
+        "dns /reset",
+        "ipconfig /flushdns",
+        "resetdns /flush"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Caches et performance",
+      "question": "Quelle commande affiche le cache DNS sous Windows ?",
+      "options": [
+        "nslookup /cache",
+        "ipconfig /displaydns",
+        "dns /list",
+        "showdns"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 4 : Caches et performance",
+      "question": "Où se trouve le cache DNS côté client ?",
+      "options": [
+        "Sur le routeur",
+        "Dans le navigateur",
+        "Dans la machine cliente",
+        "Sur le serveur secondaire"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 4 : Caches et performance",
+      "question": "Si le cache DNS du serveur est pollué, que faire ?",
+      "options": [
+        "Réinitialiser le système",
+        "Redémarrer l’ordinateur",
+        "Changer de serveur DNS préféré",
+        "Supprimer le fichier de zone"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Serveurs et redondance",
+      "question": "Quel serveur DNS applique les modifications ?",
+      "options": [
+        "Secondaire",
+        "Cache",
+        "Primaire",
+        "Racine"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Serveurs et redondance",
+      "question": "Que se passe-t-il si le serveur primaire est indisponible ?",
+      "options": [
+        "Le domaine est supprimé",
+        "Les requêtes DNS échouent immédiatement",
+        "Les serveurs secondaires assurent la continuité",
+        "Le fichier de zone est automatiquement recréé"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 5 : Serveurs et redondance",
+      "question": "Un même serveur peut-il être à la fois primaire, secondaire et cache ?",
+      "options": [
+        "Non",
+        "Oui"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 5 : Serveurs et redondance",
+      "question": "Quel serveur interroge le système DNS sans héberger de zones ?",
+      "options": [
+        "Serveur cache",
+        "Serveur racine",
+        "Serveur maître",
+        "Serveur proxy"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 5 : Serveurs et redondance",
+      "question": "Que représente la racine du DNS ?",
+      "options": [
+        "Un serveur d’entreprise",
+        "Le serveur du domaine .com",
+        "Le point d’entrée de la hiérarchie DNS",
+        "Une extension de navigateur"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "Partie 6 : Commandes et outils",
+      "question": "Que fait la commande nslookup ?",
+      "options": [
+        "Supprime une zone",
+        "Effectue une requête DNS manuelle",
+        "Installe un DNS",
+        "Vide le cache"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Commandes et outils",
+      "question": "Le TTL d’un enregistrement DNS indique :",
+      "options": [
+        "Le temps maximum de chargement d’une page",
+        "La durée de vie dans le cache",
+        "Le temps d’ouverture d’une connexion",
+        "Le nombre d’octets d’un paquet"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "Partie 6 : Commandes et outils",
+      "question": "Peut-on configurer manuellement un serveur DNS dans les paramètres réseau ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 6 : Commandes et outils",
+      "question": "Quel type d’enregistrement est utilisé pour IPv6 ?",
+      "options": [
+        "AAAA",
+        "A6",
+        "IPV6",
+        "V6"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "Partie 6 : Commandes et outils",
+      "question": "Que permet l’enregistrement TXT ?",
+      "options": [
+        "Gérer les extensions",
+        "Stocker des textes libres ou des clés (SPF, DKIM…)",
+        "Ajouter des styles",
+        "Cacher le nom du domaine"
+      ],
+      "answer": "B"
+    }
+  ]
+}

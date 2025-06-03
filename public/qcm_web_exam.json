@@ -1,0 +1,242 @@
+{
+  "title": "QCM – Examen de Web",
+  "questions": [
+    {
+      "part": "Navigateurs Web",
+      "question": "Parmi les affirmations suivantes sur les navigateurs web, laquelle vous parait juste :",
+      "options": [
+        "Le rendu de la page est défini sur le serveur, le navigateur n’a pas à s’en charger.",
+        "Tous les navigateurs web interprètent exactement de la même manière le code html.",
+        "Ceci est du au fait qu’il utilise tous le même moteur de rendu développé par le W3C.",
+        "Chaque navigateur utilise son propre moteur de rendu, il s’ensuit qu’on peut avoir des rendus légèrement différents pour la même page HTML."
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "HTML",
+      "question": "Parmi les balises html suivantes, laquelle nous permet de créer un lien hypertexte?",
+      "options": [
+        "<a >",
+        "<link >",
+        "<span >",
+        "<strong >"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "HTML",
+      "question": "Parmi les propositions suivantes, laquelle représente la structure d’un document HTML ?",
+      "options": [
+        "Un document HTML a une structure TABULAIRE (TABLEAU)",
+        "Un document HTML a une structure HIÉRARCHIQUE (ARBORESCENCE)"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "HTML",
+      "question": "Parmi les éléments suivants, lequel permet d’attacher un fichier de style externe à un document HTML ?",
+      "options": [
+        "<link>",
+        "<style>",
+        "<meta>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "JavaScript",
+      "question": "function increment(step) { return function(num) { return num += step; }} var inc = increment(5); inc(2); console.log(inc(10));",
+      "options": [
+        "La console affichera le nombre 17",
+        "La console affichera le nombre 10",
+        "La console affichera le nombre 15",
+        "La console va afficher UNE ERREUR, car une fonction ne peut pas retourner une autre fonction"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "JavaScript",
+      "question": "function f() { var a = 99; setTimeout(function(){ console.log(a); }, 0); a = 23; } f();",
+      "options": [
+        "99",
+        "NaN",
+        "23"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "JavaScript",
+      "question": "const arr = [-1, 3, 6, -6, 9]; const res = arr.map(e => e > 0 ? e * e : -e * e); Que contiendra res ?",
+      "options": [
+        "[1, 9, 36, 36, 81]",
+        "[null, 9, 36, null, 81]",
+        "[-1, 9, 36, -36, 81]"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "JavaScript",
+      "question": "const arr = [-1, 3, 6, -6, 9]; const res = arr.reduce((acc, e) => acc += e, 0); Que contiendra res ?",
+      "options": [
+        "11",
+        "[1,2,8,2,11]",
+        "25"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "HTTP & Cookies",
+      "question": "Parmi les propositions suivantes, lesquelles vous paraissent justes par rapport aux cookies :",
+      "options": [
+        "Les cookies sont envoyés dans l’en-tête d’une réponse HTTP et enregistrés dans le cache du navigateur.",
+        "Les cookies sont envoyés dans l’en-tête de la requête HTTP.",
+        "Les cookies sont envoyés dans le corps de la requête HTTP."
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "DNS",
+      "question": "Quel type d’enregistrement permet de faire pointer mail.domaine.tld vers mail.google.com ?",
+      "options": [
+        "A",
+        "SOA",
+        "CNAME",
+        "NS"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "DNS",
+      "question": "Suite à une panne DNS, quelles affirmations sont vraies ?",
+      "options": [
+        "Si on connait les adresses web, on peut configurer le fichier hosts.",
+        "On pourra accéder aux sites si on connait leurs IP.",
+        "Tous les sites deviennent inaccessibles.",
+        "Certains sites restent accessibles pendant une certaine durée."
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "HTML",
+      "question": "Quel lien permet de naviguer dans la page courante ?",
+      "options": [
+        "<a href=\"#top\">Revenir au début</a>",
+        "<a href=\"mapage.html#debut\">Allez au début</a>",
+        "<a href=\"mapage.html\" target=\"_blank\">Revenir au début</a>"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "JavaScript",
+      "question": "Comment créer un tableau en JavaScript ?",
+      "options": [
+        "var tab = array_create();",
+        "var tab = new Array();",
+        "var tab = array();",
+        "var tab = [];"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "JavaScript",
+      "question": "Comment accéder à l'attribut name de l'objet person ?",
+      "options": [
+        "person['name']",
+        "person.getName()",
+        "person.name",
+        "person.attribute('name')"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "JavaScript",
+      "question": "Quelle sera la sortie de /^a-z]+8/i.test(\"AzErty89$\") ?",
+      "options": [
+        "La console affiche true",
+        "SyntaxError",
+        "La console affiche false"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "HTTP",
+      "question": "Quels sont des entêtes d'une réponse HTTP ?",
+      "options": [
+        "User-agent",
+        "date",
+        "cookie",
+        "server"
+      ],
+      "answer": "D"
+    },
+    {
+      "part": "HTTP",
+      "question": "Quelles sont des méthodes HTTP ?",
+      "options": [
+        "request",
+        "put",
+        "head",
+        "insert"
+      ],
+      "answer": "C"
+    },
+    {
+      "part": "PHP",
+      "question": "Quelle instruction récupère le paramètre annee depuis l'URL : script.php?annee=2000 ?",
+      "options": [
+        "$a = $_POST['annee'];",
+        "$a = $_GET['annee'];",
+        "$a = $_SERVER['annee'];"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "PHP",
+      "question": "Peut-on créer des variables de portée application en PHP ?",
+      "options": [
+        "NON",
+        "OUI"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "PHP & JS",
+      "question": "Peut-on modifier une variable de session PHP avec JavaScript sans recharger la page ?",
+      "options": [
+        "OUI",
+        "NON"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "PHP",
+      "question": "Quelle instruction insère le contenu de include.php ?",
+      "options": [
+        "require(\"include.php\");",
+        "readfile(\"include.php\");",
+        "echo \"include.php\";",
+        "printf(\"include.php\")"
+      ],
+      "answer": "A"
+    },
+    {
+      "part": "PHP",
+      "question": "Comment rediriger un client à la racine du site ?",
+      "options": [
+        "redirect(\"http://monsite.com\");",
+        "header(\"location:/\");",
+        "forward(\"index.php\");",
+        "header(\"location :index.php\");"
+      ],
+      "answer": "B"
+    },
+    {
+      "part": "PHP / MySQL",
+      "question": "Comment exécuter une requête SELECT avec PDO ?",
+      "options": [
+        "$stmt = $pdo->query($sql);",
+        "$stmt = $pdo->exec($sql);"
+      ],
+      "answer": "A"
+    }
+  ]
+}

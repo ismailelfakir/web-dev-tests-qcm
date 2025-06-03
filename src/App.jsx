@@ -13,6 +13,7 @@ function App() {
   const [title, setTitle] = useState('');
 
   const qcmList = [
+    { id: 'web_exam', name: 'Examen Web', file: '/qcm_web_exam.json', icon: '📝' },
     { id: 'dns', name: 'DNS', file: '/qcm_dns.json', icon: '🌐' },
     { id: 'html', name: 'HTML', file: '/qcm_html.json', icon: '📝' },
     { id: 'css', name: 'CSS', file: '/qcm_css.json', icon: '🎨' },
